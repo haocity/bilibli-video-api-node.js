@@ -2,10 +2,22 @@
 #bilibili视频解析  使用node.js编写
 端口4343 
 不完善  现在使用av号查询只能查询到第一个视频  
-| 参数   | 描述 |
-| :------- | ----: |
-| av    |视频av号码 | 
-| cid    |视频cid号码|
+<table>
+<thead>
+<tr>
+  <th align="left">参数</th>
+  <th align="right">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td align="left">av</td>
+  <td align="right">视频av号码</td>
+</tr>
+<tr>
+  <td align="left">cid</td>
+  <td align="right">视频cid号码</td>
+</tr>
+</tbody></table>
 例子: 127.0.0.1:3434/?av=2333
          127.0.0.1:3434/?cid=3965
 
